@@ -22,13 +22,13 @@ El script reconoce la extensión del archivo ingresado y selecciona automáticam
 1. Clonar o descargar el script en tu equipo.  
 2. Asegurarte de que el script tiene permisos de ejecución:  
    ```bash
-   chmod +x ejecutar_codigo.sh
+   chmod +x run.sh
    ```
 
 ## Uso  
 1. Ejecuta el script en la terminal:  
    ```bash
-   ./ejecutar_codigo.sh
+   ./run.sh
    ```
 2. Se te pedirá que ingreses el nombre del archivo fuente que deseas ejecutar.  
 3. El script verificará si el archivo existe y detectará su extensión.  
@@ -37,7 +37,7 @@ El script reconoce la extensión del archivo ingresado y selecciona automáticam
 
 ## Ejemplo de Ejecución  
 ```bash
-$ ./ejecutar_codigo.sh
+$ ./run.sh
 Por favor, ingresa el nombre del archivo que deseas ejecutar: ejemplo.py
 Ejecutando 'ejemplo.py' usando la imagen de Docker 'python:3'...
 Salida del programa:
@@ -54,6 +54,3 @@ Tiempo total de ejecución: 12ms
 
 - **"Error al ejecutar el programa:" seguido de un mensaje de error.**  
   - Puede haber un error en el código fuente. Revisa el mensaje de error para más detalles.  
-
-## Licencia  
-Este script es de uso libre y abierto bajo la licencia MIT.
