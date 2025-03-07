@@ -1,7 +1,11 @@
 # README - Script Bash para Ejecutar Código en Contenedores Docker  
 
 ## Descripción  
-Este script en Bash permite ejecutar archivos de código en diferentes lenguajes de programación dentro de contenedores. Es útil para ejecutar código sin necesidad de instalar los entornos de desarrollo en la máquina local.  
+Este script en Bash permite ejecutar archivos de código en diferentes lenguajes de programación dentro de contenedores. Es útil para ejecutar código sin necesidad de instalar los entornos de desarrollo en la máquina local. 
+
+## Presentado por
+- Aaron Cabrales Contreras
+- Juan Pablo Guzman Restrepo
 
 ## Lenguajes Soportados  
 El script reconoce la extensión del archivo ingresado y selecciona automáticamente el contenedor Docker adecuado:  
